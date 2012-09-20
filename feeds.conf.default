@@ -1,6 +1,12 @@
+#src-git zzzeigennet git://gitorious.org/eigennet/packages.git
+#src-git ninux git://github.com/ninuxorg/ninux-openwrt-packages.git
+#src-git olsrd http://olsr.org/git/olsrd.git;stable
+
+src-git eigennet git://github.com/arkanet/eigennet-packages.git
 src-svn packages svn://svn.openwrt.org/openwrt/packages
 src-svn xwrt http://x-wrt.googlecode.com/svn/trunk/package
 src-svn luci http://svn.luci.subsignal.org/luci/trunk/contrib/package
+
 #src-svn phone svn://svn.openwrt.org/openwrt/feeds/phone
 #src-svn efl svn://svn.openwrt.org/openwrt/feeds/efl
 #src-svn xorg svn://svn.openwrt.org/openwrt/feeds/xorg
