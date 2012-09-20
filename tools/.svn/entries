@@ -1,0 +1,203 @@
+10
+
+dir
+33310
+svn://svn.openwrt.org/openwrt/trunk/tools
+svn://svn.openwrt.org/openwrt
+
+
+
+2012-08-22T20:15:34.277056Z
+33233
+juhosg
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3c298f89-4303-0410-b956-a3cf2f4a3e73
+
+mpc
+dir
+
+m4
+dir
+
+cmake
+dir
+
+squashfs4
+dir
+
+mtd-utils
+dir
+
+pkg-config
+dir
+
+scons
+dir
+
+yaffs2
+dir
+
+mm-macros
+dir
+
+missing-macros
+dir
+
+ppl
+dir
+
+squashfs
+dir
+
+flex
+dir
+
+quilt
+dir
+
+xorg-macros
+dir
+
+lzma
+dir
+
+mpfr
+dir
+
+genext2fs
+dir
+
+ccache
+dir
+
+xfce-macros
+dir
+
+patch-cmdline
+dir
+
+bison
+dir
+
+e2fsprogs
+dir
+
+sed
+dir
+
+sdcc
+dir
+
+upx
+dir
+
+mtools
+dir
+
+Makefile
+file
+
+
+
+
+2012-08-29T11:47:35.000000Z
+d1a82dc1689a94984558637e24cea8bd
+2012-07-24T20:39:00.822548Z
+32824
+blogic
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5014
+
+autoconf
+dir
+
+wrt350nv2-builder
+dir
+
+lzma-old
+dir
+
+mklibs
+dir
+
+gmp
+dir
+
+include
+dir
+
+sstrip
+dir
+
+ipkg-utils
+dir
+
+libelf
+dir
+
+flock
+dir
+
+padjffs2
+dir
+
+dosfstools
+dir
+
+upslug2
+dir
+
+xz
+dir
+
+cloog
+dir
+
+libtool
+dir
+
+automake
+dir
+
+qemu
+dir
+
+mkimage
+dir
+
+firmware-utils
+dir
+
