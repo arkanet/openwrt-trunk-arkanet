@@ -6,7 +6,7 @@ country 00:
         # Channel 14. Only JP enables this and for 802.11b only
         (2474 - 2494 @ 20), (3, 20), PASSIVE-SCAN, NO-IBSS, NO-OFDM
         # Channel 36 - 48
-        (5170 - 5250 @ 40), (3, 20)
+        (5170 - 5250 @ 40), (3, 20), PASSIVE-SCAN, NO-IBSS
         # NB: 5260 MHz - 5700 MHz requies DFS
         # Channel 149 - 165
         (5735 - 5835 @ 40), (3, 20), PASSIVE-SCAN, NO-IBSS
@@ -39,7 +39,7 @@ country AR:
 	(5490 - 5710 @ 40), (3, 20), DFS
 	(5735 - 5835 @ 40), (3, 30)
 
-country AT: DFS-ETSI
+country AT:
 	(2402 - 2482 @ 40), (N/A, 20)
 	(5170 - 5250 @ 40), (N/A, 20)
 	(5250 - 5330 @ 40), (N/A, 20), DFS
@@ -62,7 +62,7 @@ country AZ:
 	(5170 - 5250 @ 40), (N/A, 18)
 	(5250 - 5330 @ 40), (N/A, 18), DFS
 
-country BA: DFS-ETSI
+country BA:
 	(2402 - 2482 @ 40), (N/A, 20)
 	(5170 - 5250 @ 40), (N/A, 20)
 	(5250 - 5330 @ 40), (N/A, 20), DFS
@@ -77,13 +77,13 @@ country BB:
 country BD:
 	(2402 - 2482 @ 40), (N/A, 20)
 
-country BE: DFS-ETSI
+country BE:
 	(2402 - 2482 @ 40), (N/A, 20)
 	(5170 - 5250 @ 40), (N/A, 20)
 	(5250 - 5330 @ 40), (N/A, 20), DFS
 	(5490 - 5710 @ 40), (N/A, 27), DFS
 
-country BG: DFS-ETSI
+country BG:
 	(2402 - 2482 @ 40), (N/A, 20)
 	(5170 - 5250 @ 40), (N/A, 23)
 	(5250 - 5290 @ 40), (N/A, 23), DFS
@@ -134,7 +134,7 @@ country CA:
 	(5490 - 5710 @ 40), (3, 20), DFS
 	(5735 - 5835 @ 40), (3, 30)
 
-country CH: DFS-ETSI
+country CH:
 	(2402 - 2482 @ 40), (N/A, 20)
 	(5170 - 5250 @ 40), (N/A, 20)
 	(5250 - 5330 @ 40), (N/A, 20), DFS
@@ -168,7 +168,7 @@ country CS:
 	(5250 - 5330 @ 40), (N/A, 20), DFS
 	(5490 - 5710 @ 40), (N/A, 27), DFS
 
-country CY: DFS-ETSI
+country CY:
 	(2402 - 2482 @ 40), (N/A, 20)
 	(5170 - 5250 @ 40), (N/A, 20)
 	(5250 - 5330 @ 40), (N/A, 20), DFS
@@ -178,7 +178,7 @@ country CY: DFS-ETSI
 # and http://www.ctu.eu/164/download/VOR/VOR-12-05-2007-6-AN.pdf
 # Power at 5250 - 5350 MHz and 5470 - 5725 MHz can be doubled if TPC is
 # implemented.
-country CZ: DFS-ETSI
+country CZ:
 	(2400 - 2483.5 @ 40), (N/A, 100 mW)
 	(5150 - 5250 @ 40), (N/A, 200 mW), NO-OUTDOOR
 	(5250 - 5350 @ 40), (N/A, 100 mW), NO-OUTDOOR, DFS
@@ -196,7 +196,7 @@ country CZ: DFS-ETSI
 # apps relies on the attenuation by the building walls only in the
 # absence of DFS; the neighbour countries have 100mW limit here as well.
 
-country DE: DFS-ETSI
+country DE:
 	# entries 279004 and 280006
 	(2400 - 2483.5 @ 40), (N/A, 100 mW)
 	# entry 303005
@@ -206,7 +206,7 @@ country DE: DFS-ETSI
 	# entries 308002, 309001 and 310003
 	(5470 - 5725 @ 40), (N/A, 500 mW), DFS
 
-country DK: DFS-ETSI
+country DK:
 	(2402 - 2482 @ 40), (N/A, 20)
 	(5170 - 5250 @ 40), (N/A, 20)
 	(5250 - 5330 @ 40), (N/A, 20), DFS
@@ -227,7 +227,7 @@ country EC:
 	(5250 - 5330 @ 20), (3, 23), DFS
 	(5735 - 5835 @ 20), (3, 30)
 
-country EE: DFS-ETSI
+country EE:
 	(2402 - 2482 @ 40), (N/A, 20)
 	(5170 - 5250 @ 40), (N/A, 20)
 	(5250 - 5330 @ 40), (N/A, 20), DFS
@@ -238,19 +238,19 @@ country EG:
 	(5170 - 5250 @ 20), (N/A, 20)
 	(5250 - 5330 @ 20), (N/A, 20), DFS
 
-country ES: DFS-ETSI
+country ES:
 	(2402 - 2482 @ 40), (N/A, 20)
 	(5170 - 5250 @ 40), (N/A, 20)
 	(5250 - 5330 @ 40), (N/A, 20), DFS
 	(5490 - 5710 @ 40), (N/A, 27), DFS
 
-country FI: DFS-ETSI
+country FI:
 	(2402 - 2482 @ 40), (N/A, 20)
 	(5170 - 5250 @ 40), (N/A, 20)
 	(5250 - 5330 @ 40), (N/A, 20), DFS
 	(5490 - 5710 @ 40), (N/A, 27), DFS
 
-country FR: DFS-ETSI
+country FR:
 	(2402 - 2482 @ 40), (N/A, 20)
 	(5170 - 5250 @ 40), (N/A, 20)
 	(5250 - 5330 @ 40), (N/A, 20), DFS
@@ -261,7 +261,7 @@ country GE:
 	(5170 - 5250 @ 40), (N/A, 18)
 	(5250 - 5330 @ 40), (N/A, 18), DFS
 
-country GB: DFS-ETSI
+country GB:
 	(2402 - 2482 @ 40), (N/A, 20)
 	(5170 - 5250 @ 40), (N/A, 20)
 	(5250 - 5330 @ 40), (N/A, 20), DFS
@@ -274,13 +274,13 @@ country GD:
 	(5490 - 5710 @ 40), (3, 20), DFS
 	(5735 - 5835 @ 40), (3, 30)
 
-country GR: DFS-ETSI
+country GR:
 	(2402 - 2482 @ 40), (N/A, 20)
 	(5170 - 5250 @ 40), (N/A, 20)
 	(5250 - 5330 @ 40), (N/A, 20), DFS
 	(5490 - 5710 @ 40), (N/A, 27), DFS
 
-country GL: DFS-ETSI
+country GL:
 	(2402 - 2482 @ 40), (N/A, 20)
 	(5170 - 5250 @ 20), (N/A, 20)
 	(5250 - 5330 @ 20), (N/A, 20), DFS
@@ -312,7 +312,7 @@ country HK:
 	(5490 - 5710 @ 40), (3, 20), DFS
 	(5735 - 5835 @ 40), (3, 30)
 
-country HR: DFS-ETSI
+country HR:
 	(2402 - 2482 @ 40), (N/A, 20)
 	(5170 - 5250 @ 40), (N/A, 20)
 	(5250 - 5330 @ 40), (N/A, 20), DFS
@@ -324,7 +324,7 @@ country HT:
 	(5250 - 5330 @ 40), (N/A, 20), DFS
 	(5490 - 5710 @ 40), (N/A, 27), DFS
 
-country HU: DFS-ETSI
+country HU:
 	(2402 - 2482 @ 40), (N/A, 20)
 	(5170 - 5250 @ 40), (N/A, 20)
 	(5250 - 5330 @ 40), (N/A, 20), DFS
@@ -333,7 +333,7 @@ country HU: DFS-ETSI
 country ID:
 	(2402 - 2482 @ 40), (N/A, 20)
 
-country IE: DFS-ETSI
+country IE:
 	(2402 - 2482 @ 40), (N/A, 20)
 	(5170 - 5250 @ 40), (N/A, 20)
 	(5250 - 5330 @ 40), (N/A, 20), DFS
@@ -350,7 +350,7 @@ country IN:
 	(5250 - 5330 @ 40), (N/A, 20), DFS
 	(5735 - 5835 @ 40), (N/A, 20)
 
-country IS: DFS-ETSI
+country IS:
 	(2402 - 2482 @ 40), (N/A, 20)
 	(5170 - 5250 @ 40), (N/A, 20)
 	(5250 - 5330 @ 40), (N/A, 20), DFS
@@ -360,11 +360,9 @@ country IR:
 	(2402 - 2482 @ 40), (N/A, 20)
 	(5735 - 5835 @ 40), (N/A, 30)
 
-country IT: DFS-ETSI
-	(2402 - 2482 @ 40), (N/A, 20)
-	(5170 - 5250 @ 40), (N/A, 20)
-	(5250 - 5330 @ 40), (N/A, 20), DFS
-	(5490 - 5710 @ 40), (N/A, 27), DFS
+country IT:
+	(2000 - 3000 @ 40), (30, 30)
+	(4000 - 7000 @ 40), (30, 30)
 
 country JM:
 	(2402 - 2482 @ 40), (N/A, 20)
@@ -427,7 +425,7 @@ country LB:
 	(2402 - 2482 @ 40), (N/A, 20)
 	(5735 - 5835 @ 40), (N/A, 30)
 
-country LI: DFS-ETSI
+country LI:
 	(2402 - 2482 @ 40), (N/A, 20)
 	(5170 - 5250 @ 40), (N/A, 20)
 	(5250 - 5330 @ 40), (N/A, 20), DFS
@@ -440,25 +438,25 @@ country LK:
 	(5490 - 5710 @ 20), (3, 20), DFS
 	(5735 - 5835 @ 20), (3, 30)
 
-country LT: DFS-ETSI
+country LT:
 	(2402 - 2482 @ 40), (N/A, 20)
 	(5170 - 5250 @ 40), (N/A, 20)
 	(5250 - 5330 @ 40), (N/A, 20), DFS
 	(5490 - 5710 @ 40), (N/A, 27), DFS
 
-country LU: DFS-ETSI
+country LU:
 	(2402 - 2482 @ 40), (N/A, 20)
 	(5170 - 5250 @ 40), (N/A, 20)
 	(5250 - 5330 @ 40), (N/A, 20), DFS
 	(5490 - 5710 @ 40), (N/A, 27), DFS
 
-country LV: DFS-ETSI
+country LV:
 	(2402 - 2482 @ 40), (N/A, 20)
 	(5170 - 5250 @ 40), (N/A, 20)
 	(5250 - 5330 @ 40), (N/A, 20), DFS
 	(5490 - 5710 @ 40), (N/A, 27), DFS
 
-country MC: DFS-ETSI
+country MC:
 	(2402 - 2482 @ 40), (N/A, 20)
 	(5170 - 5250 @ 40), (N/A, 18)
 	(5250 - 5330 @ 40), (N/A, 18), DFS
@@ -472,13 +470,13 @@ country MO:
 	(5250 - 5330 @ 40), (3, 23), DFS
 	(5735 - 5835 @ 40), (3, 30)
 
-country MK: DFS-ETSI
+country MK:
 	(2402 - 2482 @ 40), (N/A, 20)
 	(5170 - 5250 @ 40), (N/A, 20)
 	(5250 - 5330 @ 40), (N/A, 20), DFS
 	(5490 - 5710 @ 40), (N/A, 27), DFS
 
-country MT: DFS-ETSI
+country MT:
 	(2402 - 2482 @ 40), (N/A, 20)
 	(5170 - 5250 @ 40), (N/A, 20)
 	(5250 - 5330 @ 40), (N/A, 20), DFS
@@ -495,13 +493,13 @@ country MX:
 	(5250 - 5330 @ 40), (3, 23), DFS
 	(5735 - 5835 @ 40), (3, 30)
 
-country NL: DFS-ETSI
+country NL:
 	(2402 - 2482 @ 40), (N/A, 20)
 	(5170 - 5250 @ 40), (N/A, 20), NO-OUTDOOR
 	(5250 - 5330 @ 40), (N/A, 20), NO-OUTDOOR, DFS
 	(5490 - 5710 @ 40), (N/A, 27), DFS
 
-country NO: DFS-ETSI
+country NO:
 	(2402 - 2482 @ 40), (N/A, 20)
 	(5170 - 5250 @ 40), (N/A, 20)
 	(5250 - 5330 @ 40), (N/A, 20), DFS
@@ -548,13 +546,13 @@ country PK:
 	(2402 - 2482 @ 40), (N/A, 20)
 	(5735 - 5835 @ 40), (N/A, 30)
 
-country PL: DFS-ETSI
+country PL:
 	(2402 - 2482 @ 40), (N/A, 20)
 	(5170 - 5250 @ 40), (N/A, 20)
 	(5250 - 5330 @ 40), (N/A, 20), DFS
 	(5490 - 5710 @ 40), (N/A, 27), DFS
 
-country PT: DFS-ETSI
+country PT:
 	(2402 - 2482 @ 40), (N/A, 20)
 	(5170 - 5250 @ 40), (N/A, 20)
 	(5250 - 5330 @ 40), (N/A, 20), DFS
@@ -570,7 +568,7 @@ country QA:
 	(2402 - 2482 @ 40), (N/A, 20)
 	(5735 - 5835 @ 40), (N/A, 30)
 
-country RO: DFS-ETSI
+country RO:
 	(2402 - 2482 @ 40), (N/A, 20)
 	(5170 - 5250 @ 40), (N/A, 20)
 	(5250 - 5330 @ 40), (N/A, 20), DFS
@@ -586,7 +584,7 @@ country SA:
 	(5250 - 5330 @ 20), (3, 23), DFS
 	(5735 - 5835 @ 20), (3, 30)
 
-country SE: DFS-ETSI
+country SE:
 	(2402 - 2482 @ 40), (N/A, 20)
 	(5170 - 5250 @ 40), (N/A, 20)
 	(5250 - 5330 @ 40), (N/A, 20), DFS
@@ -598,13 +596,13 @@ country SG:
 	(5250 - 5330 @ 40), (N/A, 20), DFS
 	(5735 - 5835 @ 40), (N/A, 20)
 
-country SI: DFS-ETSI
+country SI:
 	(2402 - 2482 @ 40), (N/A, 20)
 	(5170 - 5250 @ 40), (N/A, 20)
 	(5250 - 5330 @ 40), (N/A, 20), DFS
 	(5490 - 5710 @ 40), (N/A, 27), DFS
 
-country SK: DFS-ETSI
+country SK:
 	(2402 - 2482 @ 40), (N/A, 20)
 	(5170 - 5250 @ 40), (N/A, 20)
 	(5250 - 5330 @ 40), (N/A, 20), DFS
@@ -643,7 +641,7 @@ country TN:
 	(5170 - 5250 @ 20), (N/A, 20)
 	(5250 - 5330 @ 20), (N/A, 20), DFS
 
-country TR: DFS-ETSI
+country TR:
 	(2402 - 2482 @ 40), (N/A, 20)
 	(5170 - 5250 @ 20), (N/A, 20)
 	(5250 - 5330 @ 20), (N/A, 20), DFS
@@ -651,13 +649,9 @@ country TR: DFS-ETSI
 country UA:
 	(2402 - 2482 @ 40), (N/A, 20)
 
-country US: DFS-FCC
-	(2402 - 2472 @ 40), (3, 27)
-	(5170 - 5250 @ 40), (3, 17)
-	(5250 - 5330 @ 40), (3, 20), DFS
-	(5490 - 5600 @ 40), (3, 20), DFS
-	(5650 - 5710 @ 40), (3, 20), DFS
-	(5735 - 5835 @ 40), (3, 30)
+country US:
+	(2000 - 3000 @ 40), (30, 30)
+	(4000 - 7000 @ 40), (30, 30)
 
 country UY:
 	(2402 - 2482 @ 40), (N/A, 20)
